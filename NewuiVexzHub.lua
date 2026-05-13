@@ -199,7 +199,7 @@ function Library:NewWindow(ConfigWindow)
 	LogoHub.BorderSizePixel = 0
 	LogoHub.Position = UDim2.new(0, 10, 0, 5)
 	LogoHub.Size = UDim2.new(0, 40, 0, 35)
-	LogoHub.Image = "rbxassetid://124762714875426"
+	LogoHub.Image = "rbxassetid://100206144433004"
 
 	Desc.Name = "Desc"
 	Desc.Parent = Left
