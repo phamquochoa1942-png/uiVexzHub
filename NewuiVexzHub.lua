@@ -167,7 +167,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Line.Name = "Line"
 	Line.Parent = Top
-	Line.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+	Line.BackgroundColor3 = Color3.fromRGB(0, 150, 255)
 	Line.BackgroundTransparency = 0.500
 	Line.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Line.BorderSizePixel = 0
@@ -399,7 +399,7 @@ function Library:NewWindow(ConfigWindow)
 	Icon_3.ImageRectOffset = Vector2.new(480, 0)
 	Icon_3.ImageRectSize = Vector2.new(96, 96)
 
-	UIStroke.Color = Color3.fromRGB(0, 255, 0)
+	UIStroke.Color = Color3.fromRGB(0, 150, 255)
 	UIStroke.Transparency = 0.5
 	UIStroke.Parent = Main
 
@@ -414,7 +414,7 @@ function Library:NewWindow(ConfigWindow)
 
 	Line_2.Name = "Line"
 	Line_2.Parent = TabFrame
-	Line_2.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+	Line_2.BackgroundColor3 = Color3.fromRGB(0, 150, 255)
 	Line_2.BackgroundTransparency = 0.500
 	Line_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Line_2.BorderSizePixel = 0
@@ -558,7 +558,7 @@ function Library:NewWindow(ConfigWindow)
 
 		Choose_2.Name = "Choose"
 		Choose_2.Parent = TabDisable
-		Choose_2.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+		Choose_2.BackgroundColor3 = Color3.fromRGB(0, 150, 255)
 		Choose_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Choose_2.BorderSizePixel = 0
 		Choose_2.Position = UDim2.new(0, 0, 0, 5)
@@ -691,7 +691,7 @@ function Library:NewWindow(ConfigWindow)
 			Line_3.Position = UDim2.new(0, 0, 1, -2)
 			Line_3.Size = UDim2.new(1, 0, 0, 2)
 
-			UIGradient.Color = ColorSequence.new { ColorSequenceKeypoint.new(0.00, Color3.fromRGB(24, 24, 25)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(0, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 25)) }
+			UIGradient.Color = ColorSequence.new { ColorSequenceKeypoint.new(0.00, Color3.fromRGB(24, 24, 25)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(0, 150, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 25)) }
 			UIGradient.Transparency = NumberSequence.new { NumberSequenceKeypoint.new(0.00, 0.53), NumberSequenceKeypoint.new(0.51, 0.00), NumberSequenceKeypoint.new(1.00, 0.51) }
 			UIGradient.Parent = Line_3
 
@@ -814,7 +814,7 @@ function Library:NewWindow(ConfigWindow)
 				local ToggleFunc = { Value = cftoggle.Default }
 				function ToggleFunc:Set(Boolean)
 					if Boolean then
-						Library:TweenInstance(ToggleCheck, 0.3, "BackgroundColor3", Color3.fromRGB(0, 255, 0))
+						Library:TweenInstance(ToggleCheck, 0.3, "BackgroundColor3", Color3.fromRGB(0, 150, 255))
 						Library:TweenInstance(Check, 0.3, "Position", UDim2.new(0, 22, 0.5, 0))
 						Library:TweenInstance(Check, 0.3, "BackgroundColor3", Color3.fromRGB(255, 255, 255))
 					else
@@ -1247,7 +1247,7 @@ function Library:NewWindow(ConfigWindow)
 					Title_12.TextSize = 13.000
 					Title_12.TextTransparency = 0.500
 
-					UIGradient_3.Color = ColorSequence.new { ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(0, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0)) }
+					UIGradient_3.Color = ColorSequence.new { ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(0, 150, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0)) }
 					UIGradient_3.Rotation = 0.9900000095367432
 					UIGradient_3.Transparency = NumberSequence.new { NumberSequenceKeypoint.new(0.00, 0.50), NumberSequenceKeypoint.new(0.50, 0.49), NumberSequenceKeypoint.new(1.00, 0.44) }
 					UIGradient_3.Parent = Option2
@@ -1468,7 +1468,7 @@ function Library:NewWindow(ConfigWindow)
 
 				SliderDraggable.Name = "SliderDraggable"
 				SliderDraggable.Parent = SliderFrame
-				SliderDraggable.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+				SliderDraggable.BackgroundColor3 = Color3.fromRGB(0, 150, 255)
 				SliderDraggable.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				SliderDraggable.BorderSizePixel = 0
 				SliderDraggable.Size = UDim2.new(0, 20, 1, 0)
@@ -1491,7 +1491,7 @@ function Library:NewWindow(ConfigWindow)
 				SliderValue.Name = "SliderValue"
 				SliderValue.Parent = Slider
 				SliderValue.AnchorPoint = Vector2.new(0, 0.5)
-				SliderValue.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+				SliderValue.BackgroundColor3 = Color3.fromRGB(0, 150, 255)
 				SliderValue.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				SliderValue.BorderSizePixel = 0
 				SliderValue.Position = UDim2.new(1, -185, 0.5, 0)
@@ -1679,7 +1679,7 @@ function Library:NewWindow(ConfigWindow)
 	-- StarterGui.ScreenGui.ImageButton.UIStroke
 	G2L["4"] = Instance.new("UIStroke", G2L["2"]);
 	G2L["4"]["Thickness"] = 2;
-	G2L["4"]["Color"] = Color3.fromRGB(0, 255, 0);
+	G2L["4"]["Color"] = Color3.fromRGB(0, 150, 255);
 	G2L["2"].MouseButton1Click:Connect(function()
 		KingRuaUI_Premium.Enabled = not KingRuaUI_Premium.Enabled
 	end)
